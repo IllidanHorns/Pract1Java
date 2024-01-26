@@ -13,7 +13,7 @@ public class Main {
         num = sc.nextInt(); // Считываем значение введённое пользователем
         System.out.println("Число студентов - " + num);
         sc.nextLine();
-        PrintWriter pw = new PrintWriter("PractJava1.txt"); // Создадим специальный объект, отвечающий за обращение для записи в файл данных
+        PrintWriter pw = new PrintWriter("Students.txt"); // Создадим специальный объект, отвечающий за обращение для записи в файл данных
         for (int i = 0; i < num; i++)
         {
             System.out.print("Введите имя студента ");
